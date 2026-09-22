@@ -215,6 +215,10 @@ src="https://www.facebook.com/tr?id=1389338596469852&ev=PageView&noscript=1"
   .inline-proof img{ width:100%; height:auto; border-radius:10px; border:1px solid var(--line); display:block; }
   .inline-proof .cap{ font-size:13px; color:var(--ink-soft); margin-top:10px; font-style:italic; }
   .inline-proof video{ width:100%; height:auto; border-radius:10px; border:1px solid var(--line); display:block; }
+  .inline-proof.video-proof{ padding:0; overflow:hidden; }
+  .inline-proof.video-proof .tag{ padding:16px 16px 0; margin-bottom:10px; }
+  .inline-proof.video-proof video{ border-radius:0; border:none; }
+  .inline-proof.video-proof .cap{ padding:10px 16px 16px; margin-top:0; }
 
   /* ---------- Testimonials ---------- */
   .testimonial-section{ background:var(--bg-testimonial); }
@@ -561,7 +565,7 @@ src="https://www.facebook.com/tr?id=1389338596469852&ev=PageView&noscript=1"
 
       <p>If other businesses are selling the same product easily while you are struggling, you know there is demand for the product, or your Instagram ad costs keep going up without enough sales, then the problem may not be your product. It may simply be where you are selling it.</p>
 
-      <div class="inline-proof">
+      <div class="inline-proof video-proof">
         <div class="tag">Real Result</div>
         <video class="real-video" controls playsinline preload="metadata">
           <source src="assets/testimonial-300orders.mp4" type="video/mp4">
